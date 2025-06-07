@@ -18,7 +18,7 @@ function appendMessage(sender, text) {
 async function callOpenAI(message) {
   appendMessage("ACT診断コーチ", "考えています…");
 
-  const apiKey = "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";
+  const apiKey = "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";
 
   const response = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
