@@ -7,7 +7,7 @@ exports.handler = async function(event, context) {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "Authorization": "Bearer sk-あなたのAPIキーをここに貼ってください"
+      "Authorization": "Bearer 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"
     },
     body: JSON.stringify({
       model: "gpt-3.5-turbo",
